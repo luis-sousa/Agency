@@ -39,7 +39,15 @@
 
         @include('layouts.partials._header')
 
-        @yield('content')
+        @include('pages.services')
+
+        @include('pages.portfolio')
+
+        @include('pages.about')
+
+        @include('pages.team')
+
+        @include('pages.contact')
 
         @include('layouts.partials._footer')
 

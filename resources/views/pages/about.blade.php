@@ -1,8 +1,3 @@
-@extends('layouts.master')
-
-
-@section('content')
-
 <!-- About Section -->
     <section id="about">
         <div class="container">
@@ -83,5 +78,3 @@
             </div>
         </div>
     </section>
-
-        @endsection
